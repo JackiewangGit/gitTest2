@@ -9,6 +9,7 @@ public class ClassTest {
 		System.out.println("select nvl(count(1),0) "+sql.substring(sql.indexOf("FROM"), sql.length()));
 		
 		System.out.println("asd");
+		System.out.println("");
 	}
 
 }
