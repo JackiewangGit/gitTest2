@@ -7,6 +7,8 @@ public class ClassTest {
 		String sql = "select * from table_test where 1=1";
 		sql = sql.toUpperCase();
 		System.out.println("select nvl(count(1),0) "+sql.substring(sql.indexOf("FROM"), sql.length()));
+		
+		System.out.println("asd");
 	}
 
 }
